@@ -89,3 +89,7 @@ async def delete_row(food_rows: FoodDelete):
         query3 = Food.delete().where(Food.c.id == food_rows.row3)
         delete_db = await database.execute(query3)
     return 'The rows has been deleted successfully'
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="127.0.0.1", port=8000)
