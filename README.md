@@ -9,8 +9,8 @@ Changes include:
 
 
 
-Install the requirements <br/>
-run fastapi with <br/>
-> <code>uvicorn main:app --reload<\code>
-Run streamlit with 
-''streamlit run streamlit.py''
+Install the requirements <br>
+run fastapi (main.py) with <br>
+> <code>uvicorn main:app --reload<\code> <br>
+Run streamlit (streamlit.py) with <br>
+'streamlit run streamlit.py'
