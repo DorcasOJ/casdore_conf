@@ -6,9 +6,7 @@ Changes include:
 - paying with Opay using Opay API (demo)
 - Order information being displayed in the slidebar for quick view while ordering
 - New inventory menu now only for admin
-
-
-
+<p><p>
 Install the requirements <br>
 
 Run fastapi (main.py) with <br>
